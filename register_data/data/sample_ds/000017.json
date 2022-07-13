@@ -1,0 +1,42 @@
+{
+    "meta" : {"dangerous": "yesyesyesyesyesyes"},
+    "size": {"x": 480, "y": 364},
+    "url": "https://allegro-datasets.s3.amazonaws.com/tutorials/000017.jpg",
+    "rois": [
+        {
+            "confidence": 0.9,
+            "labels": [
+                "person"
+            ], 
+            "poly": [
+                185.0, 
+                62.0, 
+                279.0, 
+                62.0, 
+                279.0, 
+                199.0, 
+                185.0, 
+                199.0
+            ],
+          "meta": {"alive": "yes"}
+        },
+
+        {
+            "confidence": 1.0, 
+            "labels": [
+                "horse"
+            ], 
+            "poly": [
+                90.0, 
+                78.0, 
+                403.0, 
+                78.0, 
+                403.0, 
+                336.0, 
+                90.0, 
+                336.0
+            ],
+          "meta":{"alive": "yes"}
+        }
+    ]
+}

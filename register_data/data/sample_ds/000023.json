@@ -1,0 +1,110 @@
+{
+    "meta" : {"dangerous": "no"},
+    "size": {"x": 334, "y": 500},
+    "url": "https://allegro-datasets.s3.amazonaws.com/tutorials/000023.jpg",
+    "rois": [
+        {
+            "confidence": 0.9,
+            "labels": [
+                "bicycle"
+            ], 
+            "poly": [
+                230.0, 
+                220.0, 
+                334.0, 
+                220.0, 
+                334.0, 
+                500.0, 
+                230.0, 
+                500.0
+            ],
+          "meta":{"alive": "no"}
+        }, 
+        {
+            "confidence": 0.9,
+            "labels": [
+                "person"
+            ], 
+            "poly": [
+                2.0, 
+                1.0, 
+                117.0, 
+                1.0, 
+                117.0, 
+                369.0, 
+                2.0, 
+                369.0
+            ],
+          "meta":{"alive": "yes"}
+        }, 
+        {
+            "confidence": 1.0, 
+            "labels": [
+                "person"
+            ], 
+            "poly": [
+                225.0, 
+                1.0, 
+                334.0, 
+                1.0, 
+                334.0, 
+                486.0, 
+                225.0, 
+                486.0
+            ],
+          "meta":{"alive": "yes"}
+        }, 
+        {
+            "confidence": 1.0, 
+            "labels": [
+                "bicycle"
+            ], 
+            "poly": [
+                9.0, 
+                230.0, 
+                245.0, 
+                230.0, 
+                245.0, 
+                500.0, 
+                9.0, 
+                500.0
+            ],
+          "meta":{"alive": "no"}
+        }, 
+        {
+            "confidence": 1.0, 
+            "labels": [
+                "bicycle", 
+                "difficult"
+            ], 
+            "poly": [
+                2.0, 
+                178.0, 
+                90.0, 
+                178.0, 
+                90.0, 
+                500.0, 
+                2.0, 
+                500.0
+            ],
+          "meta":{"alive": "no"}
+        }, 
+        {
+            "confidence": 1.0, 
+            "labels": [
+                "person"
+            ], 
+            "poly": [
+                3.0, 
+                2.0, 
+                243.0, 
+                2.0, 
+                243.0, 
+                462.0, 
+                3.0, 
+                462.0
+            ],
+          "meta":{"alive": "yes"}
+        }
+    ]
+}

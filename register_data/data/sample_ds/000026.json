@@ -1,0 +1,34 @@
+{
+    "meta" : {"dangerous": "yes"},
+    "size": {"x": 500, "y": 333},
+    "url": "https://allegro-datasets.s3.amazonaws.com/tutorials/000026.jpg",
+    "rois": [
+        {
+            "confidence": 0.9,
+            "labels": [
+                "car"
+            ], 
+            "poly": [
+                90.0, 
+                125.0, 
+                337.0, 
+                125.0, 
+                337.0, 
+                212.0, 
+                90.0, 
+                212.0
+            ],
+          "meta":{"alive": "no"}
+        }
+    ],
+    "keypoints": [
+        {
+            "labels": ["car parts"],
+            "keypoints": [
+                [-999999,-999999],
+                [191.66666666666666, 206.21721856542527],
+                [282.8703703703703, 152.53334765478226]
+            ]
+        }
+    ]
+}

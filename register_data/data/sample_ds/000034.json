@@ -1,0 +1,41 @@
+{
+    "meta" : {"dangerous": "no"},
+    "size": {"x": 360, "y": 500},
+    "url": "https://allegro-datasets.s3.amazonaws.com/tutorials/000034.jpg",
+    "rois": [
+        {
+            "confidence": 0.9,
+            "labels": [
+                "train"
+            ], 
+            "poly": [
+                116.0, 
+                167.0, 
+                360.0, 
+                167.0, 
+                360.0, 
+                400.0, 
+                116.0, 
+                400.0
+            ],
+            "meta":{"alive": "no"}
+        }, 
+        {
+            "confidence": 1.0, 
+            "labels": [
+                "train"
+            ], 
+            "poly": [
+                141.0, 
+                153.0, 
+                333.0, 
+                153.0, 
+                333.0, 
+                229.0, 
+                141.0, 
+                229.0
+            ],
+            "meta":{"alive": "no"}
+        }
+    ]
+}

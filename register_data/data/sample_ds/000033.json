@@ -1,0 +1,58 @@
+{
+    "meta" : {"dangerous": "no"},
+    "size": {"x": 500, "y": 366},
+    "url": "https://allegro-datasets.s3.amazonaws.com/tutorials/000033.jpg",
+    "rois": [
+        {
+            "confidence": 0.9,
+            "labels": [
+                "aeroplane"
+            ], 
+            "poly": [
+                9.0, 
+                107.0, 
+                499.0, 
+                107.0, 
+                499.0, 
+                263.0, 
+                9.0, 
+                263.0
+            ],
+            "meta":{"alive": "no"}
+        }, 
+        {
+            "confidence": 1.0, 
+            "labels": [
+                "aeroplane"
+            ], 
+            "poly": [
+                421.0, 
+                200.0, 
+                482.0, 
+                200.0, 
+                482.0, 
+                226.0, 
+                421.0, 
+                226.0
+            ],
+            "meta":{"alive": "no"}
+        }, 
+        {
+            "confidence": 1.0, 
+            "labels": [
+                "aeroplane"
+            ], 
+            "poly": [
+                325.0, 
+                188.0, 
+                411.0, 
+                188.0, 
+                411.0, 
+                223.0, 
+                325.0, 
+                223.0
+            ],
+            "meta":{"alive": "no"}
+        }
+    ]
+}
