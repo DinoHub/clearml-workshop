@@ -1,5 +1,14 @@
 # Clearml Workshops
-## Preparing your machine for the workshops
+## Content
+| Topic  | Description |
+| ------------- | ------------- |
+| [Preparing for the workshops](#Preparing-your-machine-for-the-workshops) | One time steps to setup your computer for the workshops   |
+| [Workshop agendas](#Workshop-agendas)  | Details on each session |
+
+<h4 id="Preparing-your-machine-for-the-workshops)">
+Preparing your machine for the workshops
+</h4>
+
 1. Make sure python3 is installed
 2. Create a virtual environment with clearml support
 ```
