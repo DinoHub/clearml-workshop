@@ -5,10 +5,26 @@
 | [Preparing for the workshops](#Preparing-your-machine-for-the-workshops) | One time steps to setup your computer for the workshops   |
 | [Workshop agendas](#Workshop-agendas)  | Details on each session |
 
-<h4 id="Preparing-your-machine-for-the-workshops)">
-Preparing your machine for the workshops
-</h4>
+## Workshop agendas
+You should benefit more during the sessions if you read or try the content on https://clear.ml/docs/latest/docs/ beforehand.
 
+- Session 1 - 4th july 3pm to 5pm
+  - https://us02web.zoom.us/j/84815991415?pwd=bWJhQU5XbGl2eEVsZzJrN2ZPSkpIUT09
+  - Introduction and starting with ClearML
+  - Tasks and Pipelines
+
+- Session 2 - 18th July 3pm to 5pm
+  - Data Versioning
+  - Hyper Datasets (Enterprise feature)
+
+- Session 3 - 25th 25th July 3pm to 5pm (Agenda to be confirmed)
+  - Hyper-parameter Optimization
+  - Serving
+  - Deployment
+  - Monitoring and Retraining
+
+
+## Preparing your machine for the workshops
 1. Make sure python3 is installed
 2. Create a virtual environment with clearml support
 ```
