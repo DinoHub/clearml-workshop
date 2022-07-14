@@ -65,4 +65,20 @@ Credentials verified!
 New configuration stored in /home/tkahsion/clearml.conf
 Allegro.AI setup completed successfully.
 ```
+4. Test it out. 
+- Create a python script with following content and name it `runme.py`.
+```
+from allegroai import Task
+task = Task.init(project_name="ClearML Workshop", task_name="my test test task")
+```
+- Execute the task
+```
+(venv)$ python runme.py
+ClearML Task: created new task id=12cb8ea42ba34dc09514f285a6946f43
+2022-07-14 15:30:48,954 - clearml.Task - INFO - No repository found, storing script code instead
+ClearML results page: https://app.clear.ml/projects/bfd5a961df5546a0a419e2c641b7f901/experiments/12cb8ea42ba34dc09514f285a6946f43/output/log
+2022-07-14 15:30:57,413 - clearml.Task - INFO - Waiting for repository detection and full package requirement analysis
+2022-07-14 15:31:01,612 - clearml.Task - INFO - Finished repository detection and package analysis
 
+```
+- You should see a new project and task named as indicated in the script on https://app.clear.ml/
